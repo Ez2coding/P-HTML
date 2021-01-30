@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML 연습</title>
+</head>
+<body>
+
+
+    <h1>1</h1>
+    <h2>2</h2>
+    <h3>3</h3>
+    <h4>4</h4>
+    <h5>5</h5>
+    <h6>6</h6>
+
+
+
+    <p>무슨차이인가요?</p>
+
+    <pre>무슨 차이인가요?</pre>
+
+    줄바꿈<br>입니다.
+
+    <hr> 선이생기네요? <hr>
+
+    <p> <strong>강조 입니다.</strong> </p>
+
+    <p> <em>기울어집니다. <p>
+
+    <pre><em><strong>강조하고 기울이기</strong><pre>
+
+    <i>이것은 왜 쓰나요?</i>
+
+    <!-- 하이퍼 링크 -->
+    <a href="http://www.naver.com">네이버 이동</a>
+
+    <img src = "https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile6.uf.tistory.com%2Fimage%2F2309BB3654B88179091D30" alt = "이미지가 제대로 올라갔습니다.">
+
+    <!-- 이미지가 잘 못 올라 갔을때 -->
+    <img src = "https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile6.uf.tistory.com%2Fimage%2F2309BB3654B88179091D300" alt = "이미지가 제대로 올라가지 못 했습니다.">
+
+
+    <!-- 순서없음 -->
+    <ul>
+      <h1>순서 없는 리스트</h1>
+      <li>가</li>
+      <li>나</li>
+      <li>다</li>
+    </ul>
+
+    <!-- 순서있음 -->
+    <ol>
+      <h2>순서 없는 리스트</h2>
+      <li>가</li>
+      <li>나</li>
+      <li>다</li>
+    </ol>
+
+    <!-- 정의 목록 -->
+    <dl>
+      <h3>무언가를 정의할때 제목</h3>
+      <dd>정의 할 내용은 DD</dd>
+    </dl>
+
+    <div class="wrap">클래스 명 설정 후 css 스타일 입력</div>
+    <div>그냥 써도 되요</div>
+
+
+    <!-- 일반적인 표는 제목 줄을 가지고 있는 경우가 많습니다.
+    <table> 태그도 제목 줄을 지원하며, <thead>, <tbody>, <th> 태그를 사용하여 구현합니다.
+
+    <thead> 태그는 표의 제목 영역을 나타냅니다. <table> 하위, <tr> 상위에 위치합니다.
+    <tbody> 태그는 표의 본문 영역을 나타냅니다. <thead>와 같은 위치에 존재합니다.
+    <th> 태그는 제목 셀을 나타냅니다. <td> 태그 대신 사용됩니다. -->
+
+    <table>
+        <thead>
+          <caption>연습용 테이블 입니다</caption>
+        </thead>
+        <tbody>
+          <tr>
+            <th>이름</th>
+            <th>취미</th>
+          </tr>
+
+          <tr>
+            <td>임ㅇㅇ</td>
+            <td>게임</td>
+          </tr>
+
+          <tr>
+            <td>진슥이</td>
+            <td>게임</td>
+          </tr>
+        </tbody>
+    </table>
+
+      <form>
+        <p>
+          <label>
+          <strong>아이디를 입력하세요</strong>
+          <input type ="text" name = "id" value = "">
+          </label>
+        </p>
+        <p>
+          <!-- 빈칸은 밸류생략가능 -->
+          <!--  -->
+          <strong>비밀번호를 입력하세요</strong>
+          <input type = "text" name = "pw">
+        </p>
+        <div>
+          <strong>자동 로그인</strong>
+          <input type = "checkbox" name "login" value ="자동">
+        </div>
+        <p>
+          <input type = "submit" value = "제출">
+        </p>
+      </form>
+
+<select>
+  <option value = "게임">게임</option>
+  <option value = "공부">공부</option>
+  <option value = "독서">독서</option>
+</select>
+
+</body>
+</html>
